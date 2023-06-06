@@ -1,0 +1,22 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cheerio": "^0.22.31",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
